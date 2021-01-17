@@ -1,0 +1,72 @@
+[02-Jan-2021 16:46:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Project.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Project.php on line 7
+[02-Jan-2021 16:46:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Homeneed.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Homeneed.php on line 7
+[02-Jan-2021 16:46:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Transaction.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Transaction.php on line 7
+[02-Jan-2021 16:46:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/thikadaree/public_html/app/User.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/User.php on line 11
+[02-Jan-2021 16:46:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Post.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Post.php on line 7
+[02-Jan-2021 16:46:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Categorie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Categorie.php on line 7
+[02-Jan-2021 16:47:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Transaction.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Transaction.php on line 7
+[02-Jan-2021 16:47:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Bid.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Bid.php on line 7
+[02-Jan-2021 16:47:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Project.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Project.php on line 7
+[02-Jan-2021 16:47:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Homeneed.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Homeneed.php on line 7
+[02-Jan-2021 16:47:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/thikadaree/public_html/app/User.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/User.php on line 11
+[02-Jan-2021 16:47:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Post.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Post.php on line 7
+[02-Jan-2021 16:47:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Message.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Message.php on line 7
+[02-Jan-2021 16:47:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Userprofile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Userprofile.php on line 7
+[02-Jan-2021 16:47:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Categorie.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Categorie.php on line 7
+[02-Jan-2021 16:47:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Bid.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Bid.php on line 7
+[02-Jan-2021 16:47:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Userprofile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Userprofile.php on line 7
+[02-Jan-2021 16:47:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/thikadaree/public_html/app/Message.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Message.php on line 7

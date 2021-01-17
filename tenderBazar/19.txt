@@ -1,0 +1,15 @@
+Bags/Sacks/Cases/Trunks
+Blanket/Jacket/Sweater
+Cap/Hat/Belt
+Carpets/Rugs/Mats
+Container/Carton/Cylinder/Reservoirs
+Footwear & Accessories
+Jute-Fiber/Raw-Jute
+Leather Goods
+Misc. Plastic/Rubber/Synthetic-Goods
+Pipes, Tubes & Flow Control Equipment/Fittings
+Plastic/Rubber Sheets & Films
+Rope/Twine/Thread/Yarn/Net
+Tent/Canopy
+Tyres/Tubes
+Unspecified Jute/Plastic/Rubber Goods

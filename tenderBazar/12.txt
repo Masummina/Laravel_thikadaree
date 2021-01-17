@@ -1,0 +1,15 @@
+Bags/Sacks/Cases/Trunks
+Blanket/Jacket/Sweater
+Cap/Hat/Belt
+Carpets/Rugs/Mats
+Fabric/Cloth/Cotton/Linen
+Garment Accessories
+Garmentwear/Readymade Garments
+Geo-Textiles/Geo-Nets
+Home Textiles
+Hosiery/Socks
+Mineral Textiles/Clothes
+Rope/Twine/Thread/Yarn/Net
+Tailoring/Dress Making/Sewing Works
+Tent/Canopy
+Uniform/Workwear

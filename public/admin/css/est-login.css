@@ -1,0 +1,171 @@
+  /* Made with love by Mutiullah Samim*/
+body.complain-login{
+background-image: url('../../img/loginbackground.JPG');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Source Sans Pro', sans-serif;
+width: 100%;
+}
+.login-page-main .container{
+height: 100%;
+align-content: center;
+}
+
+.login-page-main .card {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 350px;
+    background: rgb(255, 255, 255);
+    /* margin: 0 auto; */
+    padding: 0 30px;
+}
+
+.login-page-main .card-header h3 {
+    margin-bottom: 0;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+    color: #7b6f6f;
+    margin: 11px 0 19px 0px;
+    border-bottom: 1px solid #cac1c1;
+    padding-bottom: 6px;
+}
+.login-page-main .login_card .card-header {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+}
+.card-body .input-group-prepend {
+    position: relative;
+}
+.login_card .card-body .input-group-prepend span{
+color: black;
+background:none;
+position: absolute;
+border: 0px;
+z-index: 9;
+top: 0;
+}
+
+.login_card input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+
+.login_card .remember input{
+width: 14px;
+height: 14px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_card .login_btn {
+    color: black;
+    background-color: #49c0a7;
+    width: 100px;
+    padding: 0px 0;
+    width: 70px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.login_card .login_btn:hover{
+color: black;
+background-color: white;
+}
+.login-logo {
+    text-align: left;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.login-logo img {
+    max-width: 80px;
+    margin-top: 38px;
+}
+.login_card span.input-group-text i.fa.fa-user {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 17px;
+    border: 1px solid #dfdfdf;
+    width: 25px;
+    height: 24px;
+    border-radius: 45%;
+    padding: 2px 0 0 0;
+    color: #b3a6a6;
+    text-align: center;
+}
+.login_card span.input-group-text i.fa.fa-lock {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 17px;
+    border: 1px solid #dfdfdf;
+    width: 25px;
+    height: 24px;
+    border-radius: 45%;
+    padding: 2px 0 0 0;
+    color: #b3a6a6;
+    text-align: center;
+}
+span.input-group-text i.fa.fa-key {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 7px;
+}
+.card.login_card .form-control {
+    border-radius: 30px !important;
+    -webkit-box-shadow: -7px 7px 5px -3px rgba(245,235,245,1);
+    -moz-box-shadow: -7px 7px 5px -3px rgba(245,235,245,1);
+    box-shadow: -7px 6px 5px -3px rgb(224, 221, 224);
+    border: 1px solid #e5e8ea;
+    padding-left: 45px !important;
+}
+.forget-pass.float-left a {
+    text-decoration: none;
+    color: #323a60;
+    font-size: 13px;
+}
+.login_card .remember {
+    color: #30a089;
+    font-size: 14px;
+    margin-block: 16px !important;
+    margin-bottom: 16px;
+}
+.login_card .login_btn:hover {
+    background: #006c32;
+}
+
+.forget-pass.float-left {
+    display: inline-block;
+    float: left;
+}
+.form-group.login-submit {
+    float: right;
+}
+.box-all-info {
+    background: #fff;
+    width: 77%;
+    margin: 0 auto;
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(28,25,28,1);
+	-moz-box-shadow: 0px 0px 29px 1px rgba(28,25,28,1);
+	box-shadow: 0px 0px 29px 1px rgba(28,25,28,1);
+border-radius: 14px;
+margin-top: 8%;
+}
+.login-box-img-right img {
+    max-height: 400px;
+    float: right;
+    margin-right: -16px;
+    border-radius: 14px;
+}
+.form-group.login-submit button.btn.btn-primary.btn-block.btn-flat {
+    background: #69bdb1 !important;
+    border: 0px;
+    border-radius: 17px;
+    padding: 2px 12px;
+}

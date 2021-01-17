@@ -1,0 +1,168 @@
+@extends('admin.layouts.layout')
+@section('content')
+
+<div class="content-wrapper" >
+    <div class="box" style="padding-top: 20px;">
+{{Form::open(array('url'=>'property/edit-property/'.$property_id,'method'=>'post', 'class'=>'form-horizontal'))}}
+
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">Property title <span class="text-danger">*</span> </label>
+
+            <div class="col-sm-7">
+                <input type="text" value="{{$property_fields[0]->title}}" name="title" parsley-trigger="change" placeholder="Property title" class="form-control" required id="title">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">Owner Type<span class="text-danger">*</span> </label>
+            <div class="col-sm-7">
+                <select name="ownertype" class="form-control"  required>
+                    <option value="">Select Owner Type</option>
+
+                    <option value="UDDL" @if($property_fields[0]->owner_type=='UDDL')selected @endif>UDDL</option>
+                    <option value="LandOwner" @if($property_fields[0]->owner_type=='LandOwner')selected @endif>LandOwner</option>
+                    <option value="Common"
+                    @if($property_fields[0]->owner_type=='Common')selected @endif>Common</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">Apartment Type<span class="text-danger">*</span> </label>
+            <div class="col-sm-7">
+
+
+                <select id="propertytype" name="propertytype" class="form-control"  required>
+                    <option value="">Select Apartment Type</option>
+                    <option value="Parking" @if($property_fields[0]->type=='Parking')selected @endif>Parking</option>
+                    <option value="Apartment-Residential" @if($property_fields[0]->type=='Apartment-Residential')selected @endif>Apartment-Residential</option>
+
+                    <option value="Apartment-Commercial" @if($property_fields[0]->type=='Apartment-Commercial')selected @endif>Apartment-Commercial</option>
+                    <option value="Commercial" @if($property_fields[0]->type=='Commercial')selected @endif>Commercial</option>
+                    <option value="Common Facilities" @if($property_fields[0]->type=='Common Facilities')selected @endif>Common Facilities</option> 
+                    <option value="Community Hall" @if($property_fields[0]->type=='Community Hall')selected @endif>Community Hall</option>                
+                </select>
+            </div>
+        </div>
+        <div id="parking_type" style="display: @if($property_fields[0]->type !='Parking')none @endif;" class="form-group parkingtype">
+
+                    <label for="inputEmail3" class="col-sm-3 control-label">Parking Type<span class="text-danger">*</span> </label>
+                    <div class="col-sm-7">
+
+                        <select id="parking_title" name="parkingtype" class="form-control" >
+
+                          
+
+                           <option value="">Select Parking Type</option>
+
+                                <option value="Ground Floor" @if($property_fields[0]->floor_no=='Ground Floor')selected @endif>Ground Floor</option>
+
+                                <option value="Semi Basement" @if($property_fields[0]->floor_no=='Semi Basement')selected @endif>Semi Basement</option>
+                                
+                                <option value="Basement 1" @if($property_fields[0]->floor_no=='Basement 1')selected @endif>Basement 1</option>
+                                 <option value="Basement 2" @if($property_fields[0]->floor_no=='Basement 2')selected @endif>Basement 2</option>
+                               <option value="Basement 3" @if($property_fields[0]->floor_no=='Basement 3')selected @endif>Basement 3</option>
+                                 <option value="Basement 4" @if($property_fields[0]->floor_no=='Basement 4')selected @endif>Basement 4</option>
+                                  <option value="Basement 5" @if($property_fields[0]->floor_no=='Basement 5')selected @endif>Basement 5</option>
+                                <option value="Basement Floor" @if($property_fields[0]->floor_no=='Basement Floor')selected @endif>Basement Floor</option>
+                                <option value="Mezzanine Floor" @if($property_fields[0]->floor_no=='Mezzanine Floor')selected @endif>Mezzanine Floor</option>
+
+                        </select>
+
+                    </div>
+
+                    </div>
+                   
+                    <div style="display: @if($property_fields[0]->type=='Parking')none @endif" class="apperment_type">
+         <div class="form-group">
+            <label for="inputEmail3" class="col-sm-3 control-label">Floor No <span class="text-danger">*</span> </label>
+
+            <div class="col-sm-7">
+                <input type="text" value="{{$property_fields[0]->floor_no}}" name="floor_no" parsley-trigger="change" placeholder="Floor No" class="form-control" id="title">
+            </div>
+        </div>
+
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-3 control-label">Size <span class="text-danger">*</span></label>
+
+                <div class="col-sm-7">
+               <input type="text" value="{!!$property_fields[0]->description!!}" name="description" 
+                                   placeholder="Facing" class="form-control" id="editor_no">
+                </div>
+            </div>
+                
+                   
+                     <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-3 control-label">Facing<span class="text-danger">*</span> </label>
+
+                        <div class="col-sm-7">
+                            <input type="text" value="{!!$property_fields[0]->facing!!}" name="facing" 
+                                   placeholder="Facing" class="form-control" id="title">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-3 control-label">Earnest Money<span class="text-danger">*</span> </label>
+                        <div class="col-sm-7">
+                            <input type="text" value="{!!$property_fields[0]->earnest_money!!}" name="earnest_money"
+                                   placeholder="Earnest Money" class="form-control" >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-3 control-label">Down Payment<span class="text-danger">*</span> </label>
+                        <div class="col-sm-7">
+                            <input type="text" value="{!!$property_fields[0]->down_payment!!}" name="down_payment"
+                                   placeholder="Down Payment" class="form-control" >
+                        </div>
+                    </div>
+                    
+                </div>
+<div class="form-group">
+    <label for="inputEmail3" class="col-sm-3 control-label">Property price <span class="text-danger">*</span> </label>
+
+    <div class="col-sm-7">
+        <input type="text" name="price" value="{{$property_fields[0]->price}}" parsley-trigger="change" placeholder="Property price" required class="form-control" id="title" required>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="inputEmail3" class="col-sm-3 control-label">Status <span class="text-danger">*</span></label>
+
+    <div class="col-sm-7">
+        <select required class="form-control" name="status" required>
+                    @php
+                    $selected_property=null;
+                    if($property_fields[0]->status == 0)$selected_property='Unsold';
+                    else if($property_fields[0]->status == 1)$selected_property='Sold';
+                    else if($property_fields[0]->status == 3)$selected_property='Landowner';
+                    else if($property_fields[0]->status == 4)$selected_property='Common';
+                    else $selected_property='Booked';
+                            @endphp
+
+
+            <option value="">Select Property status</option>
+            <option value="0">Unsold</option>
+            <option value="1">Sold</option>
+            <option value="2">Booked</option>
+            <option value="3">Landowner</option>
+            <option value="4">Common</option>
+            <option value="{{$property_fields[0]->status}}" selected="{{$property_fields[0]->status}}">{{$selected_property}}</option>
+        </select>
+    </div>
+</div>
+
+
+<div class="box-footer">
+    <div class="form-group">
+
+        <button type="submit" name="edit" value="update" class="btn btn-info pull-right">Update</button>
+        <input type="hidden" name="property_id" value="{!! $property_id !!}" >
+
+    </div>
+</div>
+<!-- /.box-footer -->
+{{Form::close()}}
+</div>
+</div>
+
+@endsection

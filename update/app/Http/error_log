@@ -1,0 +1,8 @@
+[02-Jan-2021 16:47:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/thikadaree/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Http/Kernel.php on line 7
+[02-Jan-2021 16:47:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/thikadaree/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/thikadaree/public_html/app/Http/Kernel.php on line 7

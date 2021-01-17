@@ -1,0 +1,26 @@
+Hiring/Rental
+Leasing
+Membership Sale/Auction
+Rental of Satellite Space
+Sales/Auction of Agro/Forestry Products
+Sales/Auction of Books/Printed Items
+Sales/Auction of Building/Infra/Land/Properties
+Sales/Auction of Chemical Products
+Sales/Auction of Containers/Drum/Barrels
+Sales/Auction of Electrical/Electronic Goods
+Sales/Auction of Factories/Plant/Mill
+Sales/Auction of Food Products
+Sales/Auction of Furniture/Household Goods
+Sales/Auction of Garments/Leather/Jute Goods
+Sales/Auction of ICT/Telecom Goods
+Sales/Auction of Jewelry/Metalic Items
+Sales/Auction of Live Animals
+Sales/Auction of Machineries/Hardware
+Sales/Auction of Molasses/Chitagur
+Sales/Auction of Plastic/Rubber/Synthetic Goods
+Sales/Auction of Scrap/Defunct- Goods
+Sales/Auction of Soil/Sand/Building Materials
+Sales/Auction of Unpurified Products
+Sales/Disposal of Vehicle&Motor-Parts
+Toll Collections
+Unspecified/Unclassified Goods/Works/Services
